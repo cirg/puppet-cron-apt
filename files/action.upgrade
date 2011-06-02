@@ -1,0 +1,2 @@
+autoclean -q -y
+dist-upgrade -q -y -o APT::Show-Upgraded=true -o DPkg::Options::=--force-confdef -o DPkg::Options::=--force-confold
