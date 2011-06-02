@@ -1,4 +1,6 @@
-class cron-apt {
+class cron-apt (
+  $mailon = 'error'
+) {
   package { 'cron-apt':
     ensure => installed,
   }
